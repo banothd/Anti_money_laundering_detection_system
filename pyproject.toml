@@ -1,0 +1,17 @@
+[project]
+name = "aiml-deployment"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Banoth Dharakeshwari", email = "dbanoth2@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+aiml-deployment = "aiml_deployment:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
